@@ -9,18 +9,42 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f7f8fb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f086a4;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.pizzaIcon {
+  width: 90px;
+  height: 90px;
+  color: #FF851B;
+}
+
+.knifeIcon {
+  width: 75px;
+  height: 75px;
+  color: #7FDBFF;
+}
+
+.sandwichIcon {
+  width: 110px;
+  height: 110px;
+  color: #FFDC00;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  color: #0E3478;
 }
 
 @keyframes App-logo-spin {
