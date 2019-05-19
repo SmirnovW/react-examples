@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component renders NULL if the \`icon\` does not exist 1`] = `null`;
+
+exports[`Icon component should render the "pizza" icon 1`] = `
+<svg
+  className="container"
+  height="100%"
+  viewBox="0 0 30 30"
+  width="100%"
+>
+  <use
+    href="/path/#pizza"
+    xlinkHref="/path/#pizza"
+  />
+</svg>
+`;
+
+exports[`Icon component should render the "pizza" in small size icon 1`] = `
+<svg
+  className="container"
+  height={16}
+  viewBox="0 0 30 30"
+  width={16}
+>
+  <use
+    href="/path/#pizza"
+    xlinkHref="/path/#pizza"
+  />
+</svg>
+`;
