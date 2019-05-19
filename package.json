@@ -126,6 +126,9 @@
     "watchPlugins": [
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   },
   "babel": {
@@ -134,6 +137,11 @@
     ]
   },
   "devDependencies": {
+    "@types/react-test-renderer": "^16.8.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "enzyme-to-json": "^3.3.5",
+    "react-test-renderer": "^16.8.6",
     "svg-sprite-loader": "^4.1.6"
   }
 }

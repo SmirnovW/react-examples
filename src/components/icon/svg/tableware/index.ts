@@ -1,5 +1,3 @@
 import knife from './knife.svg';
 
-export {
-    knife,
-};
+export {knife};
